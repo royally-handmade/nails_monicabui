@@ -1,0 +1,27 @@
+# Site settings
+title: Nails by Monica Bui
+email: buimonica14@hotmail.com
+url: https://nailsmonicabui.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#111111'
+  links: '#d4af37' 
+  bold: '#004870'
+  alt-text: '#f2f2f2'
+
+# Footer settings
+footer: Nails by Monica Bui
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: 
+  - title: instagram
+    url: https://instagram.com/nailsmonicabui
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
