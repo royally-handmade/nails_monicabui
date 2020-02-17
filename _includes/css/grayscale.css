@@ -52,6 +52,11 @@ a {
     transition: all .2s ease-in-out;
 }
 
+blockquote {
+    border: none;
+    background-color: rgba(242,242,242,.1);
+}
+
 a:hover,
 a:focus {
     text-decoration: none;
@@ -72,6 +77,7 @@ a:focus {
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
+    padding: 0;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -111,6 +117,12 @@ a:focus {
     background-color: rgba(255,255,255,.3);
 }
 
+.navbar-logo {
+    max-width: 40px;
+    padding-bottom: 5px;
+    margin: auto;
+}
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -139,7 +151,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(https://royally-handmade.github.io/nails_monicabui/img/hero_final.jpg) no-repeat bottom center scroll;
+    background: url(/img/hero_final.png) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -154,10 +166,18 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    color: #fff;
 }
+
+.intro .intro-body .intro-logo {
+    width: 20%;
+}
+
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 400;
 }
 
 @media(min-width:767px) {
@@ -168,10 +188,12 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         font-size: 100px;
+        color: #fff;
     }
 
     .intro .intro-body .intro-text {
         font-size: 25px;
+        letter-spacing: 2px;
     }
 }
 
@@ -264,6 +286,7 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 }
+
 
 #map {
     width: 100%;

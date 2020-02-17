@@ -1,8 +1,9 @@
 # Site settings
-title: Nails by Monica Bui
+title: Monica Bui
 email: buimonica14@hotmail.com
 url: https://nailsmonicabui.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+subtitle: "WHERE NAILS AND SELF-DEVELOPMENT INTERSECT"
+description: "Nails nail and more nails"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
