@@ -8,7 +8,7 @@
             <div class="row" id="menus">
                 <div class="col-md-4">
                     <div class="thumbnail">
-                        <img id ="nail_services" src="/files/MENU_1.png" onclick="openModal()" alt="Nail Services" style="width: 100%">
+                        <img id ="nail_services" src={{"/files/MENU_1.png" | prepend: site.baseurl }} alt="Nail Services" style="width: 100%">
                         <div class="caption">
                             Nail Services
                         </div>
@@ -16,7 +16,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="thumbnail">
-                            <img id="nail_art" src="/files/MENU_2.png" onclick="openModal()" alt="Nail Art" style="width: 100%">
+                            <img id="nail_art" src={{"/files/MENU_2.png" | prepend: site.baseurl }} alt="Nail Art" style="width: 100%">
                             <div class="caption">
                                 Nail Art
                             </div>
@@ -24,7 +24,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="thumbnail">
-                            <img id="omakase" src="/files/MENU_3.png" onclick="openModal()" alt="Nail Omakase" style="width: 100%">
+                            <img id="omakase" src={{"/files/MENU_3.png" | prepend: site.baseurl }} alt="Nail Omakase" style="width: 100%">
                             <div class="caption">
                                 Nail Omakase
                             </div>
@@ -32,21 +32,21 @@
                 </div>
             </div>
             <div id="services_modal" class="modal">
-                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <span class="close cursor">&times;</span>
                 <div class="modal-content">
-                    <img src="/files/MENU_1.png" style="width:100%" class="img">
+                    <img src={{"/files/MENU_1.png" | prepend: site.baseurl }} style="width:100%" class="img">
                 </div>
             </div>
             <div id="art_modal" class="modal">
-                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <span class="close cursor">&times;</span>
                 <div class="modal-content">
-                    <img src="/files/MENU_2.png" style="width:100%" class="img">
+                    <img src={{"/files/MENU_2.png" | prepend: site.baseurl }} style="width:100%" class="img">
                 </div>
             </div>
             <div id="omakase_modal" class="modal">
-                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <span class="close cursor">&times;</span>
                 <div class="modal-content">
-                    <img src="/files/MENU_3.png" style="width:100%" class="img">
+                    <img src={{"/files/MENU_3.png" | prepend: site.baseurl }} style="width:100%" class="img">
                 </div>
             </div>
         </div>
